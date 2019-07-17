@@ -1,3 +1,4 @@
+### Readme to be completed..
 # key-pipeline
 A computational model to identify key protein-complexes associated to tumor progression
 ### 1 Introduction
@@ -27,7 +28,7 @@ Our tool provides a command line interface (CLI), it can be run by entering the 
 $ python pipe.py @arguments.txt
 ```
 Where ```arguments.txt``` contains all the arguments needed for the execution of the pipeline.
-#### 3.1 example of arguments file
+####### Example of arguments file
 Here is an example of an arguments file:
 ```
 --sif=/home/graph.sif
@@ -65,8 +66,8 @@ requiredarguments:
 --sif SIF     influence graph in SIF format
 --icgc ICGC     ICGC file
 ```
-###### Assumptions. 
+###### Assumptions 
 We assume that the network provided in the arguments file must be in the SIF file format
-###### Case studies..
+###### Case studie ...
 ### 4 Steps
 Each step of the tool need some inputs, and produce outputs:
