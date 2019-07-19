@@ -71,5 +71,5 @@ required arguments:
 ###### Assumptions 
 We assume that the network provided in the arguments file must be in the SIF file format
 ###### Case studie ...
-### 4 Steps
+### 4 Inputs/Outputs
 Each step of the tool need some inputs, and produce outputs:
