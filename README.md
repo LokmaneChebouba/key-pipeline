@@ -23,7 +23,7 @@ r=3.5.1=r351_0
 ```
 In this case, the packages plotly, python and r will be installed.
 ### 3 Usage
-Our tool provides a command line interface (CLI), it can be run by entering the arguments file (see below). By default, all the steps of the methods will be run, if you want to run just one or more steps, you can enter the number of steps you want by using ```--steps``` and the number of desired step separated by ”,”. The ```--help``` provides the help message describing required inputs and available options. It implements all the steps in the workflow described before. Each step will output one or more files. In general, the output of one step corresponds to the input of another one. This enables a straightforward application of the workflow for users without programming expertise. The typical usage is:
+Our tool provides a command line interface (CLI), it can be run by entering the arguments file (see below). By default, all the steps of the methods will be run, if you want to run just one or more steps, you can enter the number of steps you want by using ```--steps``` followed by the numbers of desired steps separated by ”,”. The ```--help``` provides the help message describing required inputs and available options. It implements all the steps in the workflow described before. Each step will output one or more files. In general, the output of one step corresponds to the input of another one. This enables a straightforward application of the workflow for users without programming expertise. The typical usage is:
 ```
 $ python pipe.py @arguments.txt
 ```
