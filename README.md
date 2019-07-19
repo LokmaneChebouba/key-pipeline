@@ -20,7 +20,6 @@ The ```requirements.txt``` file contain all depencies required for the successfu
 plotly=3.10.0=py_0
 python=3.7.3= h0371630_0
 r=3.5.1=r351_0
-go=go1.10.4
 ```
 In this case, the packages plotly, python and r will be installed.
 ### 3 Usage
