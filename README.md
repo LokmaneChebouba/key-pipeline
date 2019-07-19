@@ -3,7 +3,7 @@
 A computational model to identify key protein-complexes associated to tumor progression
 ### 1 Introduction
 We introduce the ```key-pipeline```, a python package implementing a workflow for identifying key protein-complexes associated to tumor progression. Our software allows researchers to (i) find the upstream/downstream paths starting from a
-couple of root nodes in a network using [pathrider](https://github.com/arnaudporet/pathrider) , a tool developed in our team
+couple of root nodes in a network using an embeded tool which is [pathrider](https://github.com/arnaudporet/pathrider), a tool developed in our team
 to this purpose; (ii) then check the consistency of our data sets and provides explanations for inconsistencies using iggy tool; (iii) validate the predictions made by iggy by computing the number of predictions matching the related experimental fold-change from ICGC data; (iv) design a stability test by comparing prediction on subsets of observations with predictions using all observations; and finally (v) plot both precision scores for each sampling, and the evolution of the prediction compared to the entire set of observations.
 ### 2 Prerequisites
 key-pipeline is a python application that uses many libraries and tools. The easiest way to obtain all depencies packages is using Anaconda. First install either Anaconda or Miniconda, download requirements.txt file and then run:
