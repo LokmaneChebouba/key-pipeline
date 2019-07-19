@@ -42,7 +42,7 @@ Here is an example of an arguments file:
 ```
 For more options you can ask for help:
 ```
-$ python pipe.py @arguments.txt --help
+$ python pipe.py --help
 ```
 ```
 usage: Usage : python pipe.py@arguments_file [--steps]
@@ -52,7 +52,7 @@ optional arguments :
 optional arguments :
 --dir DIR     follows the up stream ( ”up” ) or the down stream ( ”down” )
 --steps STEPS     specify the number of the steps to run :
-[ 1 ] Graph extraction
+[ 1 ] Threshold extraction
 [ 2 ] Pathfinder
 [ 3 ] Iggy
 [ 4 ] Cross-Validation
@@ -62,9 +62,10 @@ optional arguments :
 --stop_sampling STOP_SAMPLING     The stop sampling percentage. Default=100
 --step_sampling STEP_SAMPLING     The step of sampling. Default=5
 --numbers_run NUMBERS_RUN     The number of runs on each step. Default=100
-requiredarguments:
+required arguments:
 --sif SIF     influence graph in SIF format
 --icgc ICGC     ICGC file
+--b B     a list of blacklisted genes (weakly expressed)
 ```
 ###### Assumptions 
 We assume that the network provided in the arguments file must be in the SIF file format
