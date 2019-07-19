@@ -48,24 +48,24 @@ $ python pipe.py --help
 usage: Usage : python pipe.py@arguments_file [--steps]
 key-pipeline: require a file preceded by ’@’ and must contain all the required arguments cited below :
 optional arguments :
--h , --help   show this help message and exit
+-h , --help                         show this help message and exit
 optional arguments :
---dir DIR     follows the up stream ( ”up” ) or the down stream ( ”down” )
---steps STEPS     specify the number of the steps to run :
-[ 1 ] Threshold extraction
-[ 2 ] Pathfinder
-[ 3 ] Iggy
-[ 4 ] Cross-Validation
-[ 5 ] Plots
-( I f many ,separate by ’,’). Default run all steps
---start_sampling START_SAMPLING    The start sampling percentage. Default=10
---stop_sampling STOP_SAMPLING     The stop sampling percentage. Default=100
---step_sampling STEP_SAMPLING     The step of sampling. Default=5
---numbers_run NUMBERS_RUN     The number of runs on each step. Default=100
+--dir DIR                           follows the up stream ( ”up” ) or the down stream ( ”down” )
+--steps STEPS                       specify the number of the steps to run :
+                                    [ 1 ] Threshold extraction
+                                    [ 2 ] Pathfinder
+                                    [ 3 ] Iggy
+                                    [ 4 ] Cross-Validation
+                                    [ 5 ] Plots
+                                    ( I f many ,separate by ’,’). Default run all steps
+--start_sampling START_SAMPLING     The start sampling percentage. Default=10
+--stop_sampling STOP_SAMPLING       The stop sampling percentage. Default=100
+--step_sampling STEP_SAMPLING       The step of sampling. Default=5
+--numbers_run NUMBERS_RUN           The number of runs on each step. Default=100
 required arguments:
---sif SIF     influence graph in SIF format
---icgc ICGC     ICGC file
---b B     a list of blacklisted genes (weakly expressed)
+--sif SIF                           influence graph in SIF format
+--icgc ICGC                         ICGC file
+--b B                               a list of blacklisted genes (weakly expressed)
 ```
 ###### Assumptions 
 We assume that the network provided in the arguments file must be in the SIF file format
